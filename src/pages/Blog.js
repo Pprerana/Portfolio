@@ -22,7 +22,7 @@ function Blog() {
       }}
     >
       <Container>
-        <h1 className="text-center mb-5">My Projects</h1>
+        <h1 className="text-center mb-5">My Blogs</h1>
         <Row>
           {projects.map((project, index) => (
             <Col md={12} key={index} className="mb-4">
