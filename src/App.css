@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+/* src/App.css */
+.hero-section {
+  background: linear-gradient(135deg, #000428, #004e92);
+}
+
+.projects-section {
+  background: linear-gradient(135deg, #006400, #000000);
+}
+
+.projects-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.projects-section .p-4 {
+  transition: transform 0.2s ease-in-out;
+}
+
+.projects-section .p-4:hover {
+  transform: translateY(-5px);
+}
